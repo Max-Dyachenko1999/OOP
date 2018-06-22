@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Timer</title>
+    <link rel="stylesheet" href="timer_3.css" />
+</head>
+<body>
+<div id="test">
+    <div id="controls">
+        <label for="date"></label><input class="buttons" id="date" type="date">
+        <label for="time"></label><input class="buttons" id="time" type="time" value="00:00:00">
+        <button class="buttons"  id="start" onclick="addAlarm()">Додати</button>
+    </div>
+    <div id="alarms"></div>
+
+<!--<audio controls>
+    <source src="01.%20Better%20Place.mp3" type="audio/mpeg">
+</audio>-->
+
+    <!--<!DOCTYPE HTML>
+<html>
+
+<head>
+  <style>
+    #train {
+      position: relative;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+
+  <img id="train" src="https://js.cx/clipart/train.gif">
+
+
+  <script>
+    train.onclick = function() {
+      var start = Date.now(); // сохранить время начала
+
+      var timer = setInterval(function() {
+        // вычислить сколько времени прошло из opts.duration
+        var timePassed = Date.now() - start;
+
+        train.style.left = timePassed / 5 + 'px';
+
+        if (timePassed > 2000) clearInterval(timer);
+
+      }, 20);
+    }
+  </script>
+
+
+</body>
+
+</html>-->
+
+    <script type="text/javascript" src="timer_3.js">
+    </script>
+    <script src="timer_3.js"></script>
+</div>
+</body>
+</html>
